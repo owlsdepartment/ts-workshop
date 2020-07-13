@@ -1,0 +1,28 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/lib/index.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exercise_1": "node dist/lib/index.js 1",
+    "exercise_2": "node dist/lib/index.js 2",
+    "exercise_3": "node dist/lib/index.js 3"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.157",
+    "@types/node": "^14.0.14",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "lib": ["ES2017", "ES7", "ES6", "DOM"],
+        "outDir": "./dist/lib",
+        "target": "ES5",
+        "strict": true
+    },
+    "exclude": ["node_modules", "dist"]
+}
