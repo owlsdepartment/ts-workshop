@@ -104,3 +104,20 @@ class Sheep extends Animal {
         return "Beeeee!";
     }
 }
+
+class NormalInit {
+    private privateField: number;
+    publicField: string;
+
+    constructor(privateField: number, publicField: string) {
+        this.privateField = privateField;
+        this.publicField = publicField;
+    }
+}
+
+class SmartInit {
+    constructor(
+        private privateField: number,
+        public publicField: string
+    ) {}
+}
