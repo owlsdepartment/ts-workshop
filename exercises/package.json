@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "exercise_1": "node dist/lib/index.js 1",
     "exercise_2": "node dist/lib/index.js 2",
-    "exercise_3": "node dist/lib/index.js 3"
+    "exercise_3": "node dist/lib/index.js 3",
+    "all": "node dist/lib/index.js all"
   },
   "author": "",
   "license": "ISC",

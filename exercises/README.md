@@ -1,3 +1,15 @@
+# Jak odpalić?
+
+```
+yarn run exercise 1
+
+yarn run exercise 2
+
+yarn run exercise 3
+
+yarn run all
+```
+
 # Ćwiczenie 1 - Fabryka Samochodów
 
 1. `createCar.ts`
@@ -29,4 +41,3 @@
   * odkomentować metody `getPlane`, `getUFO`, `getHelicopter`
 4. `index.ts`
   * odkomentować kod w funkcji `main`
-
