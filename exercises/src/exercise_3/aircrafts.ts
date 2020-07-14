@@ -1,11 +1,6 @@
-import { getId } from "./helpers"
+import { getId, Position, getRandomPosition } from "./helpers"
 
-export interface Position {
-    x: number;
-    y: number;
-    z: number;
-}
-
+// Można modyfikować aircraft w ramach potrzeb
 export interface Aircraft {
     name: string;
 
@@ -16,6 +11,7 @@ export interface Aircraft {
 
 // dla specialId, użyj getId
 // metody fly i land zwracają losowo true lub false
+// getCurrentPosition powinno po prostu używać getRandomPosition
 
 // TIP: można użyć abstract class
 

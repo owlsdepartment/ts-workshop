@@ -24,3 +24,12 @@ Brands and models:
  - Volkswagen: Golf, Touareg, Passat, Polo
  - Mitsubishi: Lancer, Endeavor, Chariot, Challenger
 */
+export const brands = {
+    Seat: ["Leon", "Ibiza", "Arona", "Ateca"],
+    Opel: ["Astra", "Corsa", "Insignia", "Combo"],
+    Fiat: ["Ducato", "Punto", "Panda", "Tipo"],
+    Nissan: ["Qashqai", "Micra", "Juke", "Primera"],
+    Chevrolet: ["Cruze", "Aveo", "Camaro"],
+    Volkswagen: ["Golf", "Touareg", "Passat", "Polo"],
+    Mitsubishi: ["Lancer", "Endeavor", "Chariot", "Challenger"],
+};
