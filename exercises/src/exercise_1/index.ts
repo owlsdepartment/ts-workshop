@@ -7,7 +7,7 @@ class CarFactory {
     // TODO: zamienić typ `any` na konkretny, oczekiwany
     takeOrders(orders: any[]): Car[] {
         // TODO: implementacja
-        //  przyjmij tablice zamówień na auta i stwórz auto dla każdego
+        // przyjmij tablice zamówień na auta i stwórz auto dla każdego
         return [];
     }
 }
